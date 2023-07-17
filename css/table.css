@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2? family= Oswald:wght@700 & family= Pathway+Gothic+One & display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #242323;
+}
+
+.boton-wsp img {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1;
+}
+
+.header {
+  display: flex;
+  background-color: black;
+}
+
+.header__logo {
+  width: 4.5rem;
+  margin: 7px;
+}
+
+.contenedor-principal {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.line-horizontal {
+  width: 100%;
+  height: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #000;
+}
+
+.titulo-secciones {
+  font-size: 4rem;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.trasparente-1 {
+  width: 50%;
+}
+
+.fotografia-1 {
+  width: 100%;
+  position: relative;
+}
+
+.acesor-1 {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.contenido-1 {
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.6s;
+}
+
+.contenido-1:hover {
+  opacity: 1;
+}
+
+.contenido-1 h3 {
+  font-family: "Pathway Gothic One", sans-serif;
+  font-size-adjust: 28px;
+  color: #ffe;
+}
+
+.contenido-1 p {
+  color: #ffe;
+}
+
+.contenido-1 a {
+  text-decoration: none;
+  padding: 0.5rem 0.5rem;
+  background: #000;
+  color: #fff;
+  font-family: "Pathway Gothic One", sans-serif;
+  font-size-adjust: 20px;
+  margin: 8px;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+.contenido-1 .consulta-1:hover {
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+}
+
+.acesoramiento {
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.acesoramiento h3 {
+  text-align: left;
+  font-family: "Oswald", sans-serif;
+  color: #fff;
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+.trasparente {
+  width: 100%;
+}
+
+.fotografia {
+  width: 100%;
+  position: relative;
+}
+
+.acesor {
+  width: 100%;
+  display: block;
+  margin: auto;
+  margin-bottom: 0;
+}
+
+.contenido {
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.6s;
+  margin-bottom: 0;
+}
+
+.contenido:hover {
+  opacity: 1;
+}
+
+.contenido h3 {
+  font-family: "Pathway Gothic One", sans-serif;
+  font-size: 35px;
+  color: #ffe;
+  margin-bottom: 0;
+}
+
+.contenido p {
+  color: #ffe;
+  margin-bottom: 0;
+}
+
+.contenido a {
+  text-decoration: none;
+  padding: 0.5rem 0.5rem;
+  background: #000;
+  color: #fff;
+  font-family: "Pathway Gothic One", sans-serif;
+  font-size: 16px;
+  margin: 8px;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+  margin-bottom: 0;
+}
+
+.contenido .consulta:hover {
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+}
+
+.encontranos {
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.encontranos h4 {
+  text-align: right;
+  font-family: "Oswald", sans-serif;
+  color: #fff;
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+#ubicacion {
+  width: 100%;
+  height: 50rem;
+  margin: 15px;
+}
+
+.footer {
+  background-color: #000;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.iconos {
+  width: 3rem;
+  height: auto;
+  margin: 15px;
+}
